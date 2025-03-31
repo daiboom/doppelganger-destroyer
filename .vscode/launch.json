@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Main Package",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceFolder}/cmd/doppelganger-destroyer.go",
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "args": ["-dir", "./mock"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Debug Test",
+            "type": "go",
+            "request": "launch",
+            "mode": "test",
+            "program": "${workspaceFolder}/internal/doppelganger",
+            "console": "integratedTerminal"
+        }
+    ]
+}

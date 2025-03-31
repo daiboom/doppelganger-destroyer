@@ -1,0 +1,13 @@
+{
+  "go.toolsEnvVars": {
+      "GO111MODULE": "on"
+  },
+  "go.lintOnSave": "package",
+  "go.lintTool": "golint",
+  "go.autocompleteUnimportedPackages": true,
+  "go.formatTool": "goimports",
+  "go.enableCodeLens": {
+    "references": false,
+    "runtest": true
+  },
+}

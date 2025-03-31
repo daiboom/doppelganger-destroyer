@@ -60,7 +60,16 @@ go run cmd/doppelganger-destroyer/main.go -dir /path/to/your/directory
   ```
   make run DIR=/path/to/your/directory
   ```
+- 린트:
+  ```bash
+   # macOS 
+   brew install golangci-lint
+  ```
+  ```bash
+  make lint
+  ```
 - 테스트:
+
   ```
   make test
   ```
